@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Axis Network</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Lexend Regular -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lexend', sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    header {
+      padding: 16px;
+      border-bottom: 1px solid #222;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      background: #000;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+
+    nav a {
+      color: #aaa;
+      margin-left: 16px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: 0.2s;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #fff;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      padding: 40px 0;
+      border-bottom: 1px solid #111;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 0.95rem;
+      line-height: 1.5rem;
+    }
+
+    .card {
+      border: 1px solid #222;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .card h3 {
+      margin: 0 0 6px 0;
+      font-size: 1.1rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: #bbb;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      border-top: 1px solid #222;
+      text-align: center;
+      color: #777;
+      font-size: 0.8rem;
+    }
+
+    a.btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 6px;
+      color: #aaa;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    a.btn:hover {
+      color: #fff;
+      border-color: #444;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Axis Network</div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#proxies">Proxies</a>
+      <a href="#ai">AI Tools</a>
+      <a href="#emulators">Emulators</a>
+      <a href="#dmca">DMCA</a>
+      <a href="#github">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home">
+      <h1>Welcome to Axis Network</h1>
+      <p>
+        Axis Network builds lightweight frontends for proxies, AI tools, emulators and access layers
+        designed to help students bypass unnecessary internet censorship — without hosting or storing
+        any media ourselves.
+      </p>
+      <a class="btn" href="#proxies">Start Browsing</a>
+    </section>
+
+    <!-- PROXIES -->
+    <section id="proxies">
+      <h2>Proxies</h2>
+
+      <div class="card">
+        <h3>Axis Proxy Hub</h3>
+        <p>Simple proxy frontend connecting you to third‑party proxy services. Axis does not host any content.</p>
+      </div>
+
+      <div class="card">
+        <h3>Media Gateway</h3>
+        <p>Links to publicly accessible movie/game sites. Axis does not store or supply any media.</p>
+      </div>
+
+      <div class="card">
+        <h3>Study Routes</h3>
+        <p>Lightweight routes for docs, research and homework tools.</p>
+      </div>
+    </section>
+
+    <!-- AI -->
+    <section id="ai">
+      <h2>AI Tools</h2>
+
+      <div class="card">
+        <h3>Study Assistant</h3>
+        <p>AI helper for homework and explanations. Powered by external AI providers.</p>
+      </div>
+
+      <div class="card">
+        <h3>Tools Launcher</h3>
+        <p>Quick access to calculators, converters and utilities.</p>
+      </div>
+    </section>
+
+    <!-- EMULATORS -->
+    <section id="emulators">
+      <h2>Emulators</h2>
+
+      <div class="card">
+        <h3>Retro Game Emulators</h3>
+        <p>Frontend access to third‑party emulators for classic handheld and console systems.</p>
+      </div>
+
+      <div class="card">
+        <h3>Browser‑Based Emulator Hub</h3>
+        <p>Axis does not host ROMs or BIOS files. All content is provided by external sites.</p>
+      </div>
+    </section>
+
+    <!-- DMCA -->
+    <section id="dmca">
+      <h2>DMCA Notice</h2>
+      <p>
+        Axis Network does not host, store, upload or supply any movies, games, ROMs, BIOS files,
+        software or media. All content accessed through our frontends comes from third‑party publicly
+        accessible websites.
+      </p>
+
+      <p>
+        If you are a copyright holder, do not send DMCA notices to Axis Network.  
+        We are not the host or owner of any media.  
+        Contact the original third‑party website that is actually hosting the content.
+      </p>
+
+      <p>
+        Axis Network only manages UI and routing.  
+        We do not own or store any media.
+      </p>
+    </section>
+
+    <!-- GITHUB -->
+    <section id="github">
+      <h2>GitHub</h2>
+      <p>All Axis Network projects, tools and source code are available on our GitHub.</p>
+      <a class="btn" href="https://github.com/The-Axis-Network/" target="_blank">Visit GitHub</a>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Axis Network — frontend only, no media hosting.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // highlight active nav link
+    const navLinks = document.querySelectorAll("nav a");
+    window.addEventListener("scroll", () => {
+      let fromTop = window.scrollY + 80;
+
+      navLinks.forEach(link => {
+        let section = document.querySelector(link.getAttribute("href"));
+        if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+          navLinks.forEach(l => l.classList.remove("active"));
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
